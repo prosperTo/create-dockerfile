@@ -1,0 +1,15 @@
+name: 'create-dockerfile'
+description: 'Create file Json Contain env with Yaml'
+inputs:
+  params:
+    description: 'The params is requirer'
+    required: true
+outputs:
+  params:
+    description: 'The params'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'book-open'
+  color: 'yellow'
